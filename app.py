@@ -9,7 +9,7 @@ from linebot.exceptions import (
 from linebot.models import *
 
 app = Flask(__name__)
-
+ 
 # Channel Access Token
 line_bot_api = LineBotApi('hcIa3Hp6P6tacjgUmEBVF4j+/z6vdV/3Z29+hYUENKG4N/T/hBwR0LiG4TGpOpZ/awyWak7rknJGxgwMKY9LCK+Sv475YQ/J1o4y2DyyPdeJj03+Z2fVIeMhu2W4isXi6iWIDz/UkKIcPR6RBPvr5gdB04t89/1O/w1cDnyilFU=')
 # Channel Secret
