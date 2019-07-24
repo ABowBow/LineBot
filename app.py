@@ -1,4 +1,5 @@
-from flask import Flask, request, abort ,BeautifulSoup
+from flask import Flask, request, abort
+from bs4 import BeautifulSoup
 import simplejson as json
 
 from linebot import (
